@@ -1,0 +1,9 @@
+# for i in range(0,5):
+#     for j in range(i):
+#       print(i,end=" ")
+#     print()
+
+for i in 'geeksforgeeks':
+    if i=="e" or i=='s':
+        continue
+    print('current letter',i)
